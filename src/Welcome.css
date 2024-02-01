@@ -1,0 +1,86 @@
+body.before-login {
+  background-image: url("./1_zTLvDCAUj_TyGJF-K9P7Mw.jpg");
+}
+
+body.after-login {
+  background-image: url("./background.png");
+  background-size: contain; /* or cover based on your preference */
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin: 20px 10px;
+}
+
+
+body {
+  margin: 0;
+  padding: 0;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #080809;
+  text-align: center;
+  transition: background 0.2s ease;
+}
+
+.container {
+  /* text-align: center; */
+  text-align: left;
+}
+
+.error {
+  color: red;
+}
+
+/* .welcome-container {
+  padding: 20px;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.5);
+} */
+
+
+.logout-button {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  background-color: #4caf50;
+  color: #ffffff;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+.logout-button:hover {
+  background-color: #45a049;
+}
+
+
+.welcome-container {
+  position: fixed;
+  top: -20px;
+  left: 10px;
+  padding: 20px;
+  border-radius: 10px;
+  /* background-color: rgba(88, 60, 201, 0.5); */
+  text-align: left; /* Align text to the left */
+}
+
+
+
+.welcome-container h1 {
+  font-size: 2em;
+
+  text-align: left;
+  margin-bottom: 2px;
+}
+
+.welcome-container p {
+  font-size: 1.2em;
+  text-align: left;
+}
+
+
